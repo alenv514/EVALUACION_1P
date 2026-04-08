@@ -40,8 +40,19 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta a la Pregunta 1 -->
+* **git clone**: Descarga una copia completa de un repositorio remoto a una carpeta local en mi computadora, permitiéndome trabajar sin conexión.
+* **fork**: Es una copia de un repositorio ajeno que se guarda en mi propia cuenta de GitHub. Sirve para experimentar sin alterar el proyecto original del profesor.
+* **git pull**: Actualiza mi código local descargando y fusionando los cambios más recientes que otros hayan subido al servidor.
 
+**Parte práctica:**
+1. **¿Cómo se realizó el fork?**: Entré al repositorio del Ing. Santiago Jara y pulsé el botón "Fork" para copiar el proyecto a mi perfil `alenv514`.
+2. **¿Cómo se realizó el clone del fork?**: Copié la URL HTTPS de mi repositorio personal y ejecuté el comando `git clone` en mi terminal local.
+3. **¿Cómo se verificó el fork?**: Ejecuté `git remote -v` y comprobé que las direcciones de origen (`origin`) apuntan a mi cuenta de GitHub y no a la del ingeniero.
+
+**Evidencia:**
+**Evidencias:**
+![Fork Realizado](imagenes/fork.png)
+![Verificación Remoto](imagenes/pregunta1.png)
 ---
 
 ## Pregunta 2 (1 punto)
