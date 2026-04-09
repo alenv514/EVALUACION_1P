@@ -230,4 +230,18 @@ Un conflicto ocurre cuando Git no puede decidir automáticamente qué versión d
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 6 -->
+**Procedimiento realizado:**
+1. Se eliminaron los archivos `archivoA.txt` y `archivoB.txt` para limpiar el entorno de desarrollo.
+2. Se realizó un merge de `develop` hacia `main` para consolidar la versión final.
+3. Se sincronizaron todas las ramas y tags con el repositorio remoto (fork).
+4. Se generó el Pull Request final hacia el repositorio original del docente.
+
+**Explicación de Versionamiento Semántico (SemVer):**
+El versionamiento semántico es un estándar para dar un significado lógico al número de versión de un programa. Ayuda a los desarrolladores a saber qué tan grande es un cambio y si es compatible con versiones anteriores. Se compone de tres números: **X.Y.Z**
+
+* **MAJOR (X):** Se incrementa cuando se realizan cambios grandes que **no son compatibles** con versiones anteriores (rompen la API).
+* **MINOR (Y):** Se incrementa cuando se añade funcionalidad de manera **compatible** (nuevas características que no rompen lo anterior).
+* **PATCH (Z):** Se incrementa para correcciones de errores (**bugfixes**) que no añaden funciones nuevas.
+
+**Evidencia Final:**
+[Enlace a mi repositorio: https://github.com/alenv514/EVALUACION_1P]
