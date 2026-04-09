@@ -155,6 +155,11 @@ Git Flow permite una organización impecable en proyectos de larga duración. Su
 
 1. ¿Qué es un Pull Request?
 Es una propuesta para introducir cambios de una rama (en este caso develop) a otra (main). Su función es facilitar la revisión de código y la colaboración, permitiendo que otros miembros del equipo discutan los cambios antes de integrarlos.
+2. ¿Por qué es importante revisar un PR?
+Para asegurar la calidad del código, detectar errores antes de que lleguen a producción y compartir conocimiento entre el equipo.
+
+3. ¿Qué se valida?
+Estilo de código, lógica del negocio, posibles fallos de seguridad y que cumpla con los requerimientos.
 ---
 
 ## Pregunta 5 (2 puntos)
