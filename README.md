@@ -49,7 +49,6 @@
 2. **¿Cómo se realizó el clone del fork?**: Copié la URL HTTPS de mi repositorio personal y ejecuté el comando `git clone` en mi terminal local.
 3. **¿Cómo se verificó el fork?**: Ejecuté `git remote -v` y comprobé que las direcciones de origen (`origin`) apuntan a mi cuenta de GitHub y no a la del ingeniero.
 
-**Evidencia:**
 **Evidencias:**
 ![Fork Realizado](imagenes/fork.png)
 ![Verificación Remoto](imagenes/pregunta1.png)
@@ -74,7 +73,14 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
+**Función del archivo .gitignore:**
+El archivo `.gitignore` es un archivo de texto que le indica a Git qué archivos o carpetas debe ignorar y no rastrear. Es fundamental en el desarrollo para evitar subir archivos pesados (como dependencias), archivos temporales, logs de errores o archivos con credenciales sensibles al repositorio remoto.
+
+**Evidencia de funcionamiento:**
+Se crearon archivos con extensión `.log`, una carpeta `temp/` y archivos `.md`/`.txt` dentro de la carpeta `doc/`. Al ejecutar el comando `git status`, se verificó que Git no detecta estos archivos para ser agregados, cumpliendo con las reglas establecidas, mientras que archivos de las mismas extensiones fuera de dichas carpetas sí son rastreados.
+
+**Captura de evidencia:**
+![Evidencia de archivos ignorados](imagenes/gitignore_evidencia.png)
 
 ---
 
