@@ -3,8 +3,8 @@
 ### Carrera de [Nombre de la Carrera]  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** ___________________________  
-**Fecha:** ___________________  
+**Nombre del Estudiante:** Alen Villamarin 
+**Fecha:** 8/4/2026  
 
 ---
 
