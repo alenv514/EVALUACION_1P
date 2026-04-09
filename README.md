@@ -110,7 +110,20 @@ Se crearon archivos con extensión `.log`, una carpeta `temp/` y archivos `.md`/
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
+**Comandos utilizados:**
+1. `git flow init`: Inicialización del flujo de trabajo con ramas main y develop.
+2. `git flow feature start ingresar-encabezado`: Creación de la rama de funcionalidad.
+3. `git add / git commit`: Registro de los cambios en el encabezado.
+4. `git flow feature finish ingresar-encabezado`: Finalización y fusión de la rama.
+
+**Descripción del proceso:**
+Se configuró el entorno con Git Flow aceptando las ramas por defecto. Se procedió a crear una rama de tipo 'feature' para trabajar de forma aislada en el encabezado del README. Tras completar los datos personales del estudiante, se realizó un commit para registrar el progreso y finalmente se cerró la rama integrando los cambios en develop.
+
+**Reflexión sobre las ventajas de Git Flow:**
+Git Flow permite una organización impecable en proyectos de larga duración. Su principal ventaja es el aislamiento de funciones, lo que permite que varios desarrolladores trabajen en paralelo sin afectar la rama principal de producción. Además, define un estándar claro para lanzamientos y correcciones urgentes.
+
+**Evidencia:**
+![Evidencia Git Flow](imagenes/gitflow_evidencia.png)
 
 ---
 
