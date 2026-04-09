@@ -191,8 +191,21 @@ Estilo de código, lógica del negocio, posibles fallos de seguridad y que cumpl
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 5 -->
+**¿Qué es un conflicto en Git?**
+Un conflicto ocurre cuando Git no puede decidir automáticamente qué versión de un archivo mantener. En este caso, ocurrió porque ambas ramas (`ramaA` y `ramaB`) crearon un archivo con el mismo nombre y en la misma ubicación, pero con contenido distinto.
 
+**Procedimiento realizado:**
+1. Se crearon las ramas con `git branch`.
+2. Se generó el conflicto al intentar un `git merge ramaB` estando en `ramaA`.
+3. Se resolvió manualmente editando `archivoA.txt`, borrando las marcas de conflicto y dejando ambos contenidos.
+4. Se finalizó el merge con un commit y se integró a `develop`.
+5. Se eliminaron las ramas con `git branch -d`.
+
+**Enlace al Pull Request:**
+[https://github.com/alenv514/EVALUACION_1P/pull/2] (Crea el PR de develop a main en GitHub para obtener el link).
+
+**Evidencia:**
+![Resolución de Conflictos](imagenes/conflicto_evidencia.png)
 ---
 
 ## Pregunta 6 (2 puntos)
