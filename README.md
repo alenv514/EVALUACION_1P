@@ -153,8 +153,8 @@ Git Flow permite una organización impecable en proyectos de larga duración. Su
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
-
+1. ¿Qué es un Pull Request?
+Es una propuesta para introducir cambios de una rama (en este caso develop) a otra (main). Su función es facilitar la revisión de código y la colaboración, permitiendo que otros miembros del equipo discutan los cambios antes de integrarlos.
 ---
 
 ## Pregunta 5 (2 puntos)
